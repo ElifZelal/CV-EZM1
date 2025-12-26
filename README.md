@@ -108,10 +108,6 @@ Renkleri özelleştirmek için `src/index.css` dosyasındaki CSS değişkenlerin
 }
 ```
 
-## 📸 Profil Fotoğrafı
-
-Profil fotoğrafınızı `public` klasörüne `profile-photo.jpg` veya `profile-photo.png` olarak ekleyin.
-
 ## 📝 Lisans
 
 Bu proje kişisel kullanım için oluşturulmuştur.
