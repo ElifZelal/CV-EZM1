@@ -46,7 +46,7 @@ const Contact = () => {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
 
-      const result = await response.json().catch(() => ({}))
+      await response.json().catch(() => ({}))
       
       setSubmitStatus('success')
       setFormData({ name: '', email: '', subject: '', message: '' })
